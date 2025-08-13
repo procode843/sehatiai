@@ -260,4 +260,6 @@ MIT License — see `LICENSE` file.
 
 ---
 
-made by ❤️
+<<<<<<< HEAD
+=======
+>>>>>>> main
