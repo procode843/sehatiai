@@ -1,0 +1,410 @@
+[
+  {
+    "id": "hosp_001",
+    "name_ar": "مستشفى الملك فيصل التخصصي",
+    "name_en": "King Faisal Specialist Hospital",
+    "coords": { "lat": 24.7136, "lng": 46.6753 },
+    "specialties": ["أمراض القلب", "جراحة الأعصاب", "الأورام", "زراعة الأعضاء"],
+    "rating": 4.8,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966112889999",
+    "address_ar": "الرياض، حي النخيل",
+    "services": ["طوارئ", "عناية مركزة", "إسعاف", "أطفال"],
+    "insurance": ["بوبا", "التعاونية", "سلامة", "الراجحي"],
+    "bookingUrl": "https://kfshrc.edu.sa",
+    "capacityFlag": "متاح",
+    "distance": 2.5,
+    "eta": 8,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "أحمد محمد",
+        "rating": 5,
+        "comment": "خدمة ممتازة وطاقم طبي متميز"
+      }
+    ]
+  },
+  {
+    "id": "hosp_002",
+    "name_ar": "مستشفى الملك خالد الجامعي",
+    "name_en": "King Khalid University Hospital",
+    "coords": { "lat": 24.7242, "lng": 46.6197 },
+    "specialties": ["الطب الباطني", "الجراحة العامة", "النساء والولادة", "الأطفال"],
+    "rating": 4.5,
+    "hours": {
+      "monday": "06:00-22:00",
+      "tuesday": "06:00-22:00",
+      "wednesday": "06:00-22:00",
+      "thursday": "06:00-22:00",
+      "friday": "08:00-20:00",
+      "saturday": "06:00-22:00",
+      "sunday": "08:00-20:00"
+    },
+    "phone": "+966114671111",
+    "address_ar": "الرياض، حي الملز",
+    "services": ["طوارئ", "أطفال", "نساء وولادة"],
+    "insurance": ["بوبا", "التعاونية", "سلامة"],
+    "bookingUrl": "https://kkuh.sa",
+    "capacityFlag": "مزدحم",
+    "distance": 5.2,
+    "eta": 15,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "فاطمة علي",
+        "rating": 4,
+        "comment": "مستشفى جيد لكن الانتظار طويل أحياناً"
+      }
+    ]
+  },
+  {
+    "id": "hosp_003",
+    "name_ar": "مستشفى الأمير سلطان العسكري",
+    "name_en": "Prince Sultan Military Hospital",
+    "coords": { "lat": 24.6408, "lng": 46.7728 },
+    "specialties": ["جراحة القلب", "العظام", "الطب النفسي", "الأشعة"],
+    "rating": 4.6,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966114777000",
+    "address_ar": "الرياض، حي الوادي",
+    "services": ["طوارئ", "عناية مركزة", "إسعاف"],
+    "insurance": ["عسكري", "بوبا", "التعاونية"],
+    "bookingUrl": "https://psmmc.med.sa",
+    "capacityFlag": "متاح",
+    "distance": 8.1,
+    "eta": 22,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "خالد السعد",
+        "rating": 5,
+        "comment": "مستشفى متطور وخدمة سريعة"
+      }
+    ]
+  },
+  {
+    "id": "hosp_004",
+    "name_ar": "مجمع الملك عبدالله الطبي",
+    "name_en": "King Abdullah Medical Complex",
+    "coords": { "lat": 21.4858, "lng": 39.1925 },
+    "specialties": ["أمراض القلب", "الكلى", "الغدد الصماء", "الأعصاب"],
+    "rating": 4.7,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966122677777",
+    "address_ar": "جدة، حي الصفا",
+    "services": ["طوارئ", "عناية مركزة", "إسعاف", "أطفال"],
+    "insurance": ["بوبا", "التعاونية", "سلامة", "الراجحي", "ميدغلف"],
+    "bookingUrl": "https://kamc.med.sa",
+    "capacityFlag": "متاح",
+    "distance": 12.3,
+    "eta": 35,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "نورا أحمد",
+        "rating": 5,
+        "comment": "أفضل مستشفى في المنطقة"
+      }
+    ]
+  },
+  {
+    "id": "hosp_005",
+    "name_ar": "مستشفى دلة",
+    "name_en": "Dallah Hospital",
+    "coords": { "lat": 24.7453, "lng": 46.6369 },
+    "specialties": ["النساء والولادة", "الأطفال", "الجراحة التجميلية", "العيون"],
+    "rating": 4.3,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966112000000",
+    "address_ar": "الرياض، حي النزهة",
+    "services": ["طوارئ", "أطفال", "نساء وولادة"],
+    "insurance": ["بوبا", "التعاونية", "سلامة"],
+    "bookingUrl": "https://dallah-hospital.com",
+    "capacityFlag": "مزدحم",
+    "distance": 3.7,
+    "eta": 12,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "سارة محمد",
+        "rating": 4,
+        "comment": "خدمة جيدة في قسم النساء والولادة"
+      }
+    ]
+  },
+  {
+    "id": "hosp_006",
+    "name_ar": "مستشفى الحبيب",
+    "name_en": "Al Habib Hospital",
+    "coords": { "lat": 24.7731, "lng": 46.7383 },
+    "specialties": ["أمراض القلب", "الجراحة العامة", "العظام", "الجلدية"],
+    "rating": 4.4,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966112222222",
+    "address_ar": "الرياض، حي العليا",
+    "services": ["طوارئ", "عناية مركزة"],
+    "insurance": ["بوبا", "التعاونية", "سلامة", "الراجحي"],
+    "bookingUrl": "https://alhabib.com",
+    "capacityFlag": "متاح",
+    "distance": 6.8,
+    "eta": 18,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "محمد العتيبي",
+        "rating": 4,
+        "comment": "مستشفى نظيف وطاقم مهذب"
+      }
+    ]
+  },
+  {
+    "id": "hosp_007",
+    "name_ar": "مستشفى الأمل",
+    "name_en": "Al Amal Hospital",
+    "coords": { "lat": 24.6892, "lng": 46.7219 },
+    "specialties": ["الطب النفسي", "علاج الإدمان", "الاستشارات النفسية"],
+    "rating": 4.2,
+    "hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "14:00-20:00",
+      "saturday": "08:00-20:00",
+      "sunday": "08:00-20:00"
+    },
+    "phone": "+966114888888",
+    "address_ar": "الرياض، حي الربوة",
+    "services": ["استشارات نفسية", "علاج إدمان"],
+    "insurance": ["بوبا", "التعاونية"],
+    "bookingUrl": "https://alamal-hospital.sa",
+    "capacityFlag": "متاح",
+    "distance": 4.2,
+    "eta": 14,
+    "isOpen": false,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "عبدالله الشمري",
+        "rating": 4,
+        "comment": "مكان هادئ ومناسب للعلاج النفسي"
+      }
+    ]
+  },
+  {
+    "id": "hosp_008",
+    "name_ar": "مستشفى الموسى التخصصي",
+    "name_en": "Al Mouwasat Specialist Hospital",
+    "coords": { "lat": 24.7108, "lng": 46.6742 },
+    "specialties": ["جراحة المخ والأعصاب", "القلب", "العظام", "الأورام"],
+    "rating": 4.6,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966112777777",
+    "address_ar": "الرياض، حي المربع",
+    "services": ["طوارئ", "عناية مركزة", "إسعاف"],
+    "insurance": ["بوبا", "التعاونية", "سلامة", "الراجحي", "ميدغلف"],
+    "bookingUrl": "https://almouwasat.com",
+    "capacityFlag": "متاح",
+    "distance": 1.8,
+    "eta": 6,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "ريم الزهراني",
+        "rating": 5,
+        "comment": "أطباء متخصصون وخدمة ممتازة"
+      }
+    ]
+  },
+  {
+    "id": "hosp_009",
+    "name_ar": "مستشفى الأطفال التخصصي",
+    "name_en": "Children's Specialist Hospital",
+    "coords": { "lat": 24.7556, "lng": 46.6889 },
+    "specialties": ["طب الأطفال", "جراحة الأطفال", "أمراض القلب للأطفال", "الأورام"],
+    "rating": 4.8,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966113333333",
+    "address_ar": "الرياض، حي الشفا",
+    "services": ["طوارئ أطفال", "عناية مركزة أطفال", "إسعاف"],
+    "insurance": ["بوبا", "التعاونية", "سلامة"],
+    "bookingUrl": "https://csh.med.sa",
+    "capacityFlag": "متاح",
+    "distance": 7.3,
+    "eta": 20,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "أم عبدالرحمن",
+        "rating": 5,
+        "comment": "أفضل مستشفى للأطفال في المدينة"
+      }
+    ]
+  },
+  {
+    "id": "hosp_010",
+    "name_ar": "مستشفى العيون التخصصي",
+    "name_en": "Eye Specialist Hospital",
+    "coords": { "lat": 24.6975, "lng": 46.7156 },
+    "specialties": ["طب وجراحة العيون", "الشبكية", "المياه البيضاء", "الليزك"],
+    "rating": 4.5,
+    "hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "مغلق",
+      "saturday": "08:00-18:00",
+      "sunday": "08:00-18:00"
+    },
+    "phone": "+966114444444",
+    "address_ar": "الرياض، حي الورود",
+    "services": ["فحص العيون", "جراحة العيون"],
+    "insurance": ["بوبا", "التعاونية", "سلامة", "الراجحي"],
+    "bookingUrl": "https://eye-hospital.sa",
+    "capacityFlag": "متاح",
+    "distance": 5.9,
+    "eta": 16,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "عمر الحربي",
+        "rating": 4,
+        "comment": "دكاترة ممتازين في جراحة العيون"
+      }
+    ]
+  },
+  {
+    "id": "hosp_011",
+    "name_ar": "مستشفى الأسنان التخصصي",
+    "name_en": "Dental Specialist Hospital",
+    "coords": { "lat": 24.7289, "lng": 46.6534 },
+    "specialties": ["طب الأسنان", "جراحة الفم", "تقويم الأسنان", "زراعة الأسنان"],
+    "rating": 4.3,
+    "hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "14:00-20:00",
+      "saturday": "08:00-20:00",
+      "sunday": "08:00-20:00"
+    },
+    "phone": "+966115555555",
+    "address_ar": "الرياض، حي السليمانية",
+    "services": ["طوارئ أسنان", "جراحة فم"],
+    "insurance": ["بوبا", "التعاونية", "سلامة"],
+    "bookingUrl": "https://dental-hospital.sa",
+    "capacityFlag": "مزدحم",
+    "distance": 4.6,
+    "eta": 13,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "لينا الأحمد",
+        "rating": 4,
+        "comment": "عيادة أسنان نظيفة وحديثة"
+      }
+    ]
+  },
+  {
+    "id": "hosp_012",
+    "name_ar": "مركز الأورام الشامل",
+    "name_en": "Comprehensive Cancer Center",
+    "coords": { "lat": 24.7667, "lng": 46.7445 },
+    "specialties": ["علاج الأورام", "العلاج الكيميائي", "العلاج الإشعاعي", "جراحة الأورام"],
+    "rating": 4.9,
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7"
+    },
+    "phone": "+966116666666",
+    "address_ar": "الرياض، حي الياسمين",
+    "services": ["طوارئ", "عناية مركزة", "علاج كيميائي"],
+    "insurance": ["بوبا", "التعاونية", "سلامة", "الراجحي", "ميدغلف"],
+    "bookingUrl": "https://cancer-center.sa",
+    "capacityFlag": "متاح",
+    "distance": 9.2,
+    "eta": 25,
+    "isOpen": true,
+    "photos": ["/placeholder.svg?height=200&width=300"],
+    "reviews": [
+      {
+        "author": "د. أحمد الطبيب",
+        "rating": 5,
+        "comment": "مركز متطور جداً لعلاج الأورام"
+      }
+    ]
+  }
+]

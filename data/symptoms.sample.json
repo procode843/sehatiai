@@ -1,0 +1,79 @@
+{
+  "commonSymptoms": [
+    {
+      "id": "headache",
+      "name_ar": "صداع",
+      "name_en": "Headache",
+      "category": "neurological",
+      "severity_indicators": ["شديد", "مستمر", "مع حمى", "مع قيء"],
+      "related_symptoms": ["دوخة", "غثيان", "حساسية للضوء"],
+      "emergency_flags": ["صداع مفاجئ شديد", "مع فقدان وعي", "مع تشنجات"]
+    },
+    {
+      "id": "fever",
+      "name_ar": "حمى",
+      "name_en": "Fever",
+      "category": "general",
+      "severity_indicators": ["أعلى من 39°", "مع رعشة", "مستمرة أكثر من 3 أيام"],
+      "related_symptoms": ["تعب", "آلام الجسم", "فقدان شهية"],
+      "emergency_flags": ["حمى عالية مع طفح جلدي", "صعوبة تنفس", "تشنجات"]
+    },
+    {
+      "id": "chest_pain",
+      "name_ar": "ألم في الصدر",
+      "name_en": "Chest Pain",
+      "category": "cardiac",
+      "severity_indicators": ["ألم شديد", "ينتشر للذراع", "مع ضيق تنفس"],
+      "related_symptoms": ["خفقان", "دوخة", "تعرق"],
+      "emergency_flags": ["ألم صدري مع ضيق تنفس", "ألم ينتشر للفك أو الذراع", "مع إغماء"]
+    },
+    {
+      "id": "shortness_of_breath",
+      "name_ar": "ضيق في التنفس",
+      "name_en": "Shortness of Breath",
+      "category": "respiratory",
+      "severity_indicators": ["صعوبة في الكلام", "لا يتحسن بالراحة", "مع ألم صدري"],
+      "related_symptoms": ["سعال", "صفير", "تعب"],
+      "emergency_flags": ["ضيق تنفس شديد", "ازرقاق الشفاه", "فقدان وعي"]
+    },
+    {
+      "id": "abdominal_pain",
+      "name_ar": "ألم في البطن",
+      "name_en": "Abdominal Pain",
+      "category": "gastrointestinal",
+      "severity_indicators": ["ألم شديد مستمر", "مع قيء", "مع حمى"],
+      "related_symptoms": ["غثيان", "إسهال", "انتفاخ"],
+      "emergency_flags": ["ألم بطني شديد مفاجئ", "مع قيء دموي", "مع إمساك شديد"]
+    }
+  ],
+  "triageRules": [
+    {
+      "condition": "emergency",
+      "keywords": ["ألم صدري شديد", "ضيق تنفس شديد", "فقدان وعي", "نزيف شديد", "تسمم"],
+      "recommendation": "اتصل بالطوارئ فوراً - 997",
+      "color": "red",
+      "urgency": "immediate"
+    },
+    {
+      "condition": "urgent",
+      "keywords": ["حمى عالية", "ألم شديد", "قيء مستمر", "إسهال شديد"],
+      "recommendation": "توجه لقسم الطوارئ أو العيادة العاجلة",
+      "color": "orange",
+      "urgency": "within_2_hours"
+    },
+    {
+      "condition": "routine",
+      "keywords": ["صداع خفيف", "زكام", "سعال", "ألم خفيف"],
+      "recommendation": "احجز موعد مع طبيب العائلة",
+      "color": "yellow",
+      "urgency": "within_24_hours"
+    },
+    {
+      "condition": "self_care",
+      "keywords": ["تعب", "أرق", "توتر", "ألم عضلي خفيف"],
+      "recommendation": "يمكن العلاج المنزلي مع المراقبة",
+      "color": "green",
+      "urgency": "monitor"
+    }
+  ]
+}
