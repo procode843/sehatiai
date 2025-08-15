@@ -1,4 +1,9 @@
 "use client"
+
+import MainHeader from "@/components/MainHeader"
+import MainFooter from "@/components/MainFooter"
+
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -29,6 +34,8 @@ import {
 import Image from "next/image"
 import { useEffect, useState } from "react"
 
+
+
 export default function HomePage() {
   const [isVisible, setIsVisible] = useState(false)
 
@@ -55,37 +62,10 @@ export default function HomePage() {
   }, [])
 
   return (
+    <>
+      <MainHeader />
+      <main className="min-h-screen">
     <div className="min-h-screen bg-white" dir="rtl">
-      <header className="fixed h-[13vh] top-0 w-full z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3"> <a href="#">
-              <Image src="/images/sehati-logo.png" alt="صحتي" width={50} height={50} className="rounded-lg" />
-              </a>
-              <div>
-                <h1 className="text-2xl font-bold text-gradient">صحتي</h1>
-                <p className="text-sm text-teal-600">أسرع طريق لصحتك</p>
-              </div>
-            </div>
-            <nav className="hidden md:flex items-center gap-6">
-              <a href="#vision" className="text-gray-700 hover:text-teal-600 transition-colors">
-                الرؤية
-              </a>
-              <a href="#features" className="text-gray-700 hover:text-teal-600 transition-colors">
-                المميزات
-              </a>
-              <a href="#technology" className="text-gray-700 hover:text-teal-600 transition-colors">
-                التقنية
-              </a>
-              <a href="/login">
-
-                <Button className="bg-teal-600 hover:bg-teal-700">ابدأ الآن</Button>
-              </a>
-              
-            </nav>
-          </div>
-        </div>
-      </header>
 
       <section className="min-h-[100vh-13vh] pb-12 pt-28 flex items-center justify-center hero-gradient pt-20">
         <div className="container mx-auto px-4 text-center">
@@ -469,85 +449,10 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="col-span-1 md:col-span-2">
-              <div className="flex items-center gap-3 mb-6">
-                <Image src="/images/sehati-logo 2.png" alt="صحتي" width={40} height={40} className="rounded-lg" />
-                <div>
-                  <h3 className="text-2xl font-bold text-gradient">صحتي</h3>
-                  <p className="text-gray-400">أسرع طريق لصحتك</p>
-                </div>
-              </div>
-              <p className="text-gray-400 leading-relaxed mb-6">
-                منصة ذكية مدعومة بالذكاء الاصطناعي لتوجيهك إلى أفضل الرعاية الصحية المناسبة لحالتك. نجمع بين التقنية
-                المتطورة والخبرة الطبية لخدمتك على مدار الساعة.
-              </p>
-            </div>
-
-            
-                  <main>
-      {/* باقي الصفحة هنا */}
-
-      {/* الفوتر */}
-      <footer className="mt-10 p-6 border-t border-gray-700">
-        <h4 className="text-lg font-semibold mb-4 text-gradient">روابط مهمة</h4>
-        <ul className="space-y-2 text-gray-400">
-          <li>
-            <Link href="/terms" className="hover:text-white transition-colors">
-              الشروط والأحكام
-            </Link>
-          </li>
-          <li>
-            <Link href="/privacy" className="hover:text-white transition-colors">
-              سياسة الخصوصية
-            </Link>
-          </li>
-          <li>
-            <Link href="/disclaimer" className="hover:text-white transition-colors">
-              إخلاء المسؤولية
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="hover:text-white transition-colors">
-              اتصل بنا
-            </Link>
-          </li>
-        </ul>
-      </footer>
-    </main>
-  
-
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-gradient">الدعم</h4>
-              <ul className="space-y-2 text-gray-400">
-                {["مركز المساعدة", "الأسئلة الشائعة", "تقرير مشكلة", "اقتراحات"].map((link, index) => (
-                  <li key={index}>
-                    <a href="#" className="hover:text-white transition-colors">
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-6 p-3 bg-white/5 rounded-lg">
-                <div className="flex items-center mb-1">
-                  <Headphones className="h-4 w-4 text-teal-400 ml-2" />
-                  <span className="font-semibold text-sm">دعم ٢٤/٧</span>
-                </div>
-                <p className="text-xs text-gray-400">نحن هنا لمساعدتك في أي وقت</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 mb-4 md:mb-0">&copy; ٢٠٢٥ صحتي. جميع الحقوق محفوظة.</p>
-            <div className="flex items-center gap-4 text-sm text-gray-400">
-
-            </div>
-          </div>
-        </div>
-      </footer>
+      
     </div>
+    </main>
+    <MainFooter />
+    </>
   )
 }

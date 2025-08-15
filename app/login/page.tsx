@@ -78,7 +78,7 @@ export default function LoginPage() {
                 <Input
                   id={loginMethod}
                   type={loginMethod === "phone" ? "tel" : "email"}
-                  placeholder={loginMethod === "phone" ? "+966 5X XXX XXXX" : "example@email.com"}
+                  placeholder={loginMethod === "phone" ? "+201X XXXX XXXX" : "example@gmail.com"}
                   value={loginMethod === "phone" ? formData.phone : formData.email}
                   onChange={(e) =>
                     setFormData((prev) => ({
