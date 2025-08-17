@@ -12,7 +12,7 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold mb-6 text-green-400 border-b border-green-500 pb-2 text-center">
       اتصل بنا
       </h1>
-      <p className="text-gray-600 leading-relaxed mb-6 text-white text-center">
+      <p className="text-gray-600 leading-relaxed mb-6 text-center">
         يمكنك التواصل معنا من خلال تعبئة النموذج أدناه أو عبر البريد الإلكتروني.
       </p>
       <form className="space-y-4">
